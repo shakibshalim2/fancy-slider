@@ -63,3 +63,13 @@ img {
     width: 90%;
   }
 }
+
+#home{
+border: 1px solid orange;
+border-radius: 10px;
+background-color: rgb(231, 165, 43);
+color: black;
+padding: 10px 20px;
+margin: 10px;
+text-decoration: none;
+}
