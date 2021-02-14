@@ -49,8 +49,8 @@ const selectItem = (event, img) => {
   else {
     sliders.splice(item, 1);
 
- }
-} 
+ };
+} ;
 
 var timer
 const createSlider = () => {
@@ -79,14 +79,14 @@ const createSlider = () => {
     src="${slide}"
     alt="">`;
     sliderContainer.appendChild(item)
-  })
+  });
 
   changeSlide(0)
   timer = setInterval(function () {
     slideIndex++;
     changeSlide(slideIndex);
   }, duration);
-}
+};
 
 // change slider index 
 const changeItem = index => {
@@ -121,11 +121,11 @@ searchBtn.addEventListener('click', function () {
   getImages(search.value)
   sliders.length = 0;
  
-})
+});
 
 sliderBtn.addEventListener('click', function () {
   createSlider()
-})
+});
 const searchImg = document.getElementById("search");
 searchImg.addEventListener("keypress", function(event) {
     if (event.key === 'Enter')
@@ -135,10 +135,10 @@ searchImg.addEventListener("keypress", function(event) {
 const toggleSpinner = () =>{
 const spinner = document.getElementById('loading-spinner')
 spinner.classList.toggle('d-none');
-}
+};
 const creatSlider = document.getElementById('duration');
 creatSlider.addEventListener("keypress", function(event){
 if(event.key === 'Enter')
 sliderBtn.click()
 
-})
+});
