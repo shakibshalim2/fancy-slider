@@ -146,5 +146,5 @@ sliderBtn.click()
 
 function goHome()
 {
-window.location="../index.html"
+window.location="https://shakibshalim2.github.io/fancy-slider/"
 }
