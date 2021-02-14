@@ -44,12 +44,9 @@ const selectItem = (event, img) => {
   if (item === -1) {
     sliders.push(img);
   } 
-  
-
   else {
     sliders.splice(item, 1);
-
- };
+ }
 } ;
 
 var timer
@@ -144,7 +141,6 @@ sliderBtn.click()
 });
 // home btn area
 
-function goHome()
-{
+function goHome(){
 window.location="https://shakibshalim2.github.io/fancy-slider/"
-}
+};
