@@ -142,3 +142,9 @@ if(event.key === 'Enter')
 sliderBtn.click()
 
 });
+// home btn area
+
+function goHome()
+{
+window.location="../index.html"
+}
